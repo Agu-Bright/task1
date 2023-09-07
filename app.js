@@ -56,8 +56,7 @@ app.get(`/api`, async (req, res) => {
     current_day: day,
     utc_time: formattedUtcTime,
     track: track,
-    github_file_url:
-      "https://github.com/Agu-Bright/task1/blob/main/task1/app.js",
+    github_file_url: "https://github.com/Agu-Bright/task1/blob/master/app.js",
     github_repo_url: "https://github.com/Agu-Bright/task1",
     status_code: 200,
   };
